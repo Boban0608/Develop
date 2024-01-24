@@ -1,3 +1,12 @@
 .vscode/c_cpp_properties.json
 .vscode/launch.json
 .vscode/settings.json
+.vscode/launch.json
+C++/Skillbox/build/Debug/l10.5_1.o
+C++/Skillbox/build/Debug/l11.6_1.o
+C++/Skillbox/build/Debug/l11.6_2.o
+C++/Skillbox/build/Debug/l11.6_3.o
+C++/Skillbox/build/Debug/outDebug.exe
+.gitignore
+.vscode/launch.json
+.vscode/settings.json
