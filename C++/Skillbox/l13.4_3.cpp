@@ -12,11 +12,13 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-vector <int> check_value(vector <int> mass, int val){
-    while (mass.size() != 0 && mass[mass.size() - 1] < val){
-        mass.pop_back();
+vector <int> add_robots(vector <int> mass, int val){
+    for (int i = 0; i < mass.size(); i++){
+      if (mass[i] == 0) {
+        mass[i] = val;
+        break;
+      }
     }
-    mass.push_back(val);
     return mass;
 }
 void get_queue (vector <int> m){
@@ -32,8 +34,22 @@ int main() {
   while (num != -1){
     cout << "Enter robot's number(-1 for exit and statistic): ";
     cin >> num;
+    if (queue.size() == 0){
+      cout << "--------------------------------\n";
+      cout << "Not anouth space for robots!\n";
+      cout << "There are 5 positions added.\n";
+      cout << "--------------------------------\n";
+      queue.resize(queue.size() + 5);
+    }
+    else if(queue[queue.size() - 3] != 0){
+      cout << "--------------------------------\n";
+      cout << "There are only 2 position for robots!\n";
+      cout << "Robots will be move to another room!\n";
+      cout << "--------------------------------\n";
+      queue.resize(queue.size() + 5);
+    }
     if (num == -1) break;
-    else queue = check_value(queue, num);
+    else queue = add_robots(queue, num);
   }  
   cout << "-------------------\n";
   get_queue(queue);
