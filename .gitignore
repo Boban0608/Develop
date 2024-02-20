@@ -10,3 +10,5 @@ C++/Skillbox/build/Debug/outDebug.exe
 .gitignore
 .vscode/launch.json
 .vscode/settings.json
+C++/Skillbox/words.txt
+C++/Skillbox/register.txt
