@@ -44,6 +44,7 @@ void IsPNG(string &path, ifstream &path_buffer){
         || tmp[2] != 'N' || tmp[3] != 'G'){
         cout << "It's not real PNG file!\n";    
     } else cout << "It's real PNG file. Congratulations!\n";
+    path_buffer.close();
 }
 main() {
   cout << "----------------\n";
