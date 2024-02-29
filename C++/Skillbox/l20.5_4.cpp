@@ -38,7 +38,13 @@ using namespace std;
 ifstream CheckStatement(){
     ifstream state("statement.bin", ios::binary);
     if(!state.is_open()){
-        cout << "Error reading file statement or empty ATM\n";
+        cout << "Error reading file statement\n";
+        cout << "----------------\n";
+        state.close();
+        ofstream saving("statement.bin", ios::binary);
+        saving.close();
+        ifstream stateNew("statement.bin", ios::binary);
+        return stateNew;
     }
     return state;
 }
