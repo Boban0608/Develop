@@ -39,7 +39,7 @@ bool CheckData(string &sal, string &d){
     cout << "Invalid date format!\n";
     cout << "It should be DD:MM:YYYY\n";
     return false;
-  } else if (stoi(d.substr(3,2)) < 1 || stoi(d.substr(3,2)) > 12){
+  } else if (month < 1 || month > 12){
     cout << "Invalid month input!\n";
     cout << "It shoud be from 1 to 12\n";
     return false;
