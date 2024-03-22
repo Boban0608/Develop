@@ -1,0 +1,5 @@
+C:/mingw64/Develop/C++/Skillbox/Simulator/build/CMakeFiles/PACKAGE.dir
+C:/mingw64/Develop/C++/Skillbox/Simulator/build/CMakeFiles/ALL_BUILD.dir
+C:/mingw64/Develop/C++/Skillbox/Simulator/build/CMakeFiles/ZERO_CHECK.dir
+C:/mingw64/Develop/C++/Skillbox/Simulator/build/src/CMakeFiles/Simulator.dir
+C:/mingw64/Develop/C++/Skillbox/Simulator/build/src/CMakeFiles/PACKAGE.dir

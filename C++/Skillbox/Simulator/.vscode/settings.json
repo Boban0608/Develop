@@ -1,0 +1,7 @@
+{
+    "cquery.cacheDirectory": "${workspaceFolder}/.vscode/cquery_cached_index/",
+    "cmake.options.statusBarVisibility": "compact",
+    "files.associations": {
+        "iostream": "cpp"
+    }
+}
