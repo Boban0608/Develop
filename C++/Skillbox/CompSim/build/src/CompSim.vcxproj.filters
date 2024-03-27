@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\mingw64\Develop\C++\Skillbox\CompSim\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\mingw64\Develop\C++\Skillbox\CompSim\src\cpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\mingw64\Develop\C++\Skillbox\CompSim\src\disk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\mingw64\Develop\C++\Skillbox\CompSim\src\gpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\mingw64\Develop\C++\Skillbox\CompSim\src\kbd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\mingw64\Develop\C++\Skillbox\CompSim\src\ram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\mingw64\Develop\C++\Skillbox\CompSim\src\command.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\mingw64\Develop\C++\Skillbox\CompSim\include\cpu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\mingw64\Develop\C++\Skillbox\CompSim\include\disk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\mingw64\Develop\C++\Skillbox\CompSim\include\gpu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\mingw64\Develop\C++\Skillbox\CompSim\include\kbd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\mingw64\Develop\C++\Skillbox\CompSim\include\ram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\mingw64\Develop\C++\Skillbox\CompSim\include\command.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\mingw64\Develop\C++\Skillbox\CompSim\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C039187C-AE4E-3CF8-BC9A-946213C224E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3B080C8D-C6C1-3CEF-AAE8-82C2AEED53B9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

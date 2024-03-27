@@ -1,0 +1,5 @@
+C:/mingw64/Develop/C++/Skillbox/CompSim/build/CMakeFiles/PACKAGE.dir
+C:/mingw64/Develop/C++/Skillbox/CompSim/build/CMakeFiles/ALL_BUILD.dir
+C:/mingw64/Develop/C++/Skillbox/CompSim/build/CMakeFiles/ZERO_CHECK.dir
+C:/mingw64/Develop/C++/Skillbox/CompSim/build/src/CMakeFiles/CompSim.dir
+C:/mingw64/Develop/C++/Skillbox/CompSim/build/src/CMakeFiles/PACKAGE.dir
